@@ -7,6 +7,8 @@ foreach (var item in list) {
     graph.AddEge(temp[0], temp[1], int.Parse(temp[2]));
 }
 
+graph.Display();
+
 public class Graph {
     public Dictionary<string, List<Edge>> AdjacencyList { get; set; }
 
@@ -18,6 +20,15 @@ public class Graph {
         if (!AdjacencyList.ContainsKey(Src))
             AdjacencyList[Src] = new();
         AdjacencyList[Src].Add(new Edge(Destination, Weight));
+    }
+
+    public void Display() {
+        foreach(var node in AdjacencyList) {
+            Console.WriteLine(node.Key + "-> ");
+            foreach (var edge in node.Value) {
+                Console.WriteLine(edge.Destination + " " + edge.Weight + " ");
+            }
+        }
     }
 }
 

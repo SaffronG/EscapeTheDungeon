@@ -12,3 +12,4 @@ C:\Users\chase.harmer\Documents\ds-and-alg\Graph\obj\Debug\net8.0\refint\Graph.d
 C:\Users\chase.harmer\Documents\ds-and-alg\Graph\obj\Debug\net8.0\Graph.pdb
 C:\Users\chase.harmer\Documents\ds-and-alg\Graph\obj\Debug\net8.0\Graph.genruntimeconfig.cache
 C:\Users\chase.harmer\Documents\ds-and-alg\Graph\obj\Debug\net8.0\ref\Graph.dll
+C:\Users\chase.harmer\Documents\ds-and-alg\Graph\obj\Debug\net8.0\Graph.sourcelink.json
