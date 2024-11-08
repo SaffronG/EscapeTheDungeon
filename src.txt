@@ -1,9 +1,7 @@
-A,B,4
-A,C,2
-B,C,5
-B,D,10
-C,D,3
-C,E,8
-D,E,7
-E,F,6
-A,F,9
+A,B,2,Low,0
+A,C,4,Medium,0
+B,D,1,Low,0
+C,D,2,High,3
+C,E,3,Medium,0
+D,F,5,Medium,0
+E,F,1,Low,0
